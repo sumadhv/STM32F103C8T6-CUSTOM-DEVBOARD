@@ -1,5 +1,4 @@
 # STM32F103C8T6-CUSTOM-DEVBOARD
-......................
 A custom development board based on the STM32F103C8T6 microcontroller. I designed the schematic and 2-layer PCB from scratch in EasyEDA, including the power supply, USB interface, programming/debugging interface and commonly used communication peripherals.
 
 ## Schematic
@@ -9,7 +8,7 @@ A custom development board based on the STM32F103C8T6 microcontroller. I designe
 [View Schematic](Schematic_MCU-devboard2_2026-08-31.png)
 ## PCB Layout
 
-[View PCB Layout](PCB_PCB_MCU-devboard2_2_2026-08-31(1).png)
+[View PCB Layout](PCB_PCB_MCU-devboard2_2_2026-08-31 (1).png)
 
 ## Features
 
