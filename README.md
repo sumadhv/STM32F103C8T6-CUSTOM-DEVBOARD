@@ -5,7 +5,7 @@ A custom development board based on the STM32F103C8T6 microcontroller. I designe
 
 ## Schematic
 
-[View Schematic](Schematic_MCU-devboard2_2026-08-31.png)
+[View Schematic](Schematic.png)
 ## PCB Layout
 
 [View PCB Layout](PCB.png)
