@@ -90,7 +90,7 @@ The PCB was designed as a compact 2-layer board in EasyEDA. Component placement 
 
 The complete Bill of Materials is available here:
 
-**[BOM.xlsx](BOM/BOM.xlsx)**
+**[BOM.csv](BOM/BOM.csv)**
 
 ## Tools Used
 
