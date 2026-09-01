@@ -122,7 +122,7 @@ The board was extended with a CAN communication interface using the **SN65HVD230
 
 [View Schematic](Schematic_With-CAN.png)
 
-## PCB Layout
+## PCB Layout with CAN
 
 [View PCB Layout](PCB_With-CAN.png)
 
