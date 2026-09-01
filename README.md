@@ -103,8 +103,19 @@ This project helped me understand the complete process of designing a custom mic
 It also gave me practical experience with USB, power regulation, decoupling, SWD, UART, I2C, SPI and basic PCB design.
 
 ## Future Improvements
-
-- Add a CAN interface using an external CAN transceiver
 - Fabricate and assemble the board
 - Test the board hardware and interfaces
 - Improve the PCB layout based on testing
+
+
+## Recent Improvement — CAN Interface
+The board was extended with a CAN communication interface using the **SN65HVD230 CAN transceiver**.
+### Added:
+- SN65HVD230 CAN transceiver
+- CANH and CANL bus interface
+- 3-pin CAN connector (CANH, CANL, GND)
+- Selectable 120Ω CAN bus termination
+- 0.1µF decoupling capacitor for the transceiver
+- STM32F103C8T6 ↔ SN65HVD230 CAN TX/RX interface
+
+This improvement adds CAN communication capability to the development board and makes the interface suitable for connecting the board to an external CAN bus.
