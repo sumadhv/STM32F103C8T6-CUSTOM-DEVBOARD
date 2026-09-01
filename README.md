@@ -3,10 +3,10 @@ A custom development board based on the STM32F103C8T6 microcontroller. I designe
 
 ## Schematic
 
-[View Schematic](Schematic.png)
+[View Schematic](SchematicV1.png)
 ## PCB Layout
 
-[View PCB Layout](PCB.png)
+[View PCB Layout](PCBv1.png)
 
 ## Features
 
@@ -88,8 +88,8 @@ The PCB was designed as a compact 2-layer board in EasyEDA. Component placement 
 
 The complete Bill of Materials is available here:
 
-**[BOM.csv](BOM.csv)**
-
+**[BOM.csv](BOM_Billofmaterials.csv)**
+("THIS BOM ALSO INCLUDES THE CAN COMPONENTS")
 ## Tools Used
 
 - EasyEDA
@@ -117,5 +117,13 @@ The board was extended with a CAN communication interface using the **SN65HVD230
 - Selectable 120Ω CAN bus termination
 - 0.1µF decoupling capacitor for the transceiver
 - STM32F103C8T6 ↔ SN65HVD230 CAN TX/RX interface
+  
+ ## Schematic with CAN
+
+[View Schematic](Schematic_With-CAN.png)
+
+## PCB Layout
+
+[View PCB Layout](PCB_With-CAN.png)
 
 This improvement adds CAN communication capability to the development board and makes the interface suitable for connecting the board to an external CAN bus.
